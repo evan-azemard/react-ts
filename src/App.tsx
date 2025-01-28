@@ -1,10 +1,10 @@
-import { Greeting } from "./Greeting";
+import { ArticleList } from './components/ArticleList';
 
-function App() {
+const App: React.FC = () => {
     return (
-        <>
-            <Greeting age={25} name="Evan" />
-        </>
+    
+         <ArticleList />
+        
     );
 }
 
