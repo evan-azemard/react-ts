@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
-import { IArticle } from "../interfaces/IArticle.interface";
+import { IArticle } from "../types/IArticle.interface";
 import axios from "axios";
-import { IUseArticlesState } from "../interfaces/IUseArticlesState.interface";
+import { IUseArticlesState } from "../types/IUseArticlesState.interface";
 
 export const useArticles =  () => {
 
