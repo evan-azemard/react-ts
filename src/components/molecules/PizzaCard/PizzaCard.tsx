@@ -1,11 +1,11 @@
-import { Button, Title  } from "@atoms/index";
+import { CustomButton, Title  } from "@atoms/index";
 import { IPizzaCard } from "./PizzaCard.props";
 
 export const PizzaCard: React.FC<IPizzaCard> = ( {label} ) => {
     return (
         <>
-        <Title text={label} />
-        <Button label="Acheter" />
+        <Title variantTypo="h4" componentTypo="h4" text={label} color="gray" />
+        <CustomButton label="Acheter" />
         </>
     )
 }
